@@ -37,6 +37,7 @@ Widget _body(BuildContext context) {
     progressName = '';
   }
   return inProgress
-      ? InProgressMessage(progressName: progressName, screenName: "HomeScreen")
+      ? InProgressMessage(
+          progressName: progressName, screenName: "IctjEmScreen")
       : Text("Hola mijos como andas");
 }
